@@ -22,6 +22,7 @@ brew install --cask microsoft-excel
 brew install --cask microsoft-teams
 brew install --cask microsoft-word
 brew install --cask microsoft-powerpoint
+brew install --cask asana
 brew install java
 brew install node
 brew install git
