@@ -27,4 +27,7 @@ brew install java
 brew install node
 brew install git
 brew install cocoapods
+echo 'export GEM_HOME=$HOME/.gem' >> ~/.zshrc
+echo 'export PATH=$GEM_HOME/bin:$PATH' >> ~/.zshrc
+gem install cocoapods --user-install
 brew install firebase-cli
