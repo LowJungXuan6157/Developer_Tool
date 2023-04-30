@@ -21,7 +21,7 @@ brew install --cask google-chrome
 brew install --cask microsoft-excel
 brew install --cask microsoft-teams
 brew install --cask microsoft-word
-brew install --cask microsoft-powerpoint
+brew install --cask microsoft-powerpointexpre
 brew install --cask asana
 brew install java
 brew install node
@@ -33,4 +33,6 @@ gem install cocoapods --user-install
 brew install firebase-cli
 brew install mysql
 brew services restart mysql
-mysqladmin -u root password '12345'
+mysqladmin -u root password 12345
+brew install scrcpy
+brew install --cask android-platform-tools
