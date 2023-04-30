@@ -31,3 +31,6 @@ echo 'export GEM_HOME=$HOME/.gem' >> ~/.zshrc
 echo 'export PATH=$GEM_HOME/bin:$PATH' >> ~/.zshrc
 gem install cocoapods --user-install
 brew install firebase-cli
+brew install mysql
+brew services restart mysql
+mysqladmin -u root password '12345'
