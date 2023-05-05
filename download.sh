@@ -1,8 +1,9 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$USER/.zprofile 
 eval "$(/opt/homebrew/bin/brew shellenv)"
-brew install --cask flutter
 brew install --cask android-studio
+brew install --cask flutter
+osascript -e 'tell app "Terminal" to do script "flutter doctor -v"'
 brew install --cask postman
 brew install --cask visual-studio-code
 brew install --cask github
